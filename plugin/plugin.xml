@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+
+   id="MarcReaderPlugin"
+   iconfile="marc21.png"
+   description="Marc Reader"
+   tooltip="Read Marc Data From File"
+   category="Demonstration"
+   classname="th.co.opendream.opendata.MarcReaderMeta">
+		
+		<libraries>
+    		<library name="ezmorph-1.0.6.jar"/>
+    		<library name="json-lib-2.4-jdk15.jar"/>
+    		<library name="marc4j.jar"/>
+    		<library name="marcReader.jar"/>
+		</libraries>
+		
+</plugin>
